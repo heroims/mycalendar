@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4AA1CD215B855D000F0CC6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AA1CD115B855D000F0CC6B /* UIKit.framework */; };
+		C4AA1CD415B855D000F0CC6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AA1CD315B855D000F0CC6B /* Foundation.framework */; };
+		C4AA1CDA15B855D000F0CC6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CD815B855D000F0CC6B /* InfoPlist.strings */; };
+		C4AA1CDC15B855D000F0CC6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA1CDB15B855D000F0CC6B /* main.m */; };
+		C4AA1CE015B855D000F0CC6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA1CDF15B855D000F0CC6B /* AppDelegate.m */; };
+		C4AA1CF815B8562000F0CC6B /* 返回按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CEA15B8562000F0CC6B /* 返回按钮.png */; };
+		C4AA1CF915B8562000F0CC6B /* 关于按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CEB15B8562000F0CC6B /* 关于按钮.png */; };
+		C4AA1CFA15B8562000F0CC6B /* 日程按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CEC15B8562000F0CC6B /* 日程按钮.png */; };
+		C4AA1CFB15B8562000F0CC6B /* 搜索按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CED15B8562000F0CC6B /* 搜索按钮.png */; };
+		C4AA1CFC15B8562000F0CC6B /* 上方广告.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CEE15B8562000F0CC6B /* 上方广告.png */; };
+		C4AA1CFD15B8562000F0CC6B /* 日程1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CEF15B8562000F0CC6B /* 日程1.png */; };
+		C4AA1CFE15B8562000F0CC6B /* 日期按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CF015B8562000F0CC6B /* 日期按钮.png */; };
+		C4AA1CFF15B8562000F0CC6B /* 中间.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CF115B8562000F0CC6B /* 中间.png */; };
+		C4AA1D0015B8562000F0CC6B /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CF215B8562000F0CC6B /* 背景.png */; };
+		C4AA1D0115B8562000F0CC6B /* 日期按钮0.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CF315B8562000F0CC6B /* 日期按钮0.png */; };
+		C4AA1D0215B8562000F0CC6B /* 红按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CF415B8562000F0CC6B /* 红按钮.png */; };
+		C4AA1D0315B8562000F0CC6B /* 绿完成.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CF515B8562000F0CC6B /* 绿完成.png */; };
+		C4AA1D0415B8562000F0CC6B /* 关于.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CF615B8562000F0CC6B /* 关于.png */; };
+		C4AA1D0515B8562000F0CC6B /* cha.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1CF715B8562000F0CC6B /* cha.png */; };
+		C4AA1D1415B8563C00F0CC6B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D0715B8563C00F0CC6B /* 1.png */; };
+		C4AA1D1515B8563C00F0CC6B /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D0815B8563C00F0CC6B /* 10.png */; };
+		C4AA1D1615B8563C00F0CC6B /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D0915B8563C00F0CC6B /* 11.png */; };
+		C4AA1D1715B8563C00F0CC6B /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D0A15B8563C00F0CC6B /* 12.png */; };
+		C4AA1D1815B8563C00F0CC6B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D0B15B8563C00F0CC6B /* 2.png */; };
+		C4AA1D1915B8563C00F0CC6B /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D0C15B8563C00F0CC6B /* 3.png */; };
+		C4AA1D1A15B8563C00F0CC6B /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D0D15B8563C00F0CC6B /* 4.png */; };
+		C4AA1D1B15B8563C00F0CC6B /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D0E15B8563C00F0CC6B /* 5.png */; };
+		C4AA1D1C15B8563C00F0CC6B /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D0F15B8563C00F0CC6B /* 6.png */; };
+		C4AA1D1D15B8563C00F0CC6B /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D1015B8563C00F0CC6B /* 7.png */; };
+		C4AA1D1E15B8563C00F0CC6B /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D1115B8563C00F0CC6B /* 8.png */; };
+		C4AA1D1F15B8563C00F0CC6B /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D1215B8563C00F0CC6B /* 9.png */; };
+		C4AA1D2015B8563C00F0CC6B /* gg.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D1315B8563C00F0CC6B /* gg.png */; };
+		C4AA1D2E15B8564100F0CC6B /* 月份1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D2215B8564100F0CC6B /* 月份1.png */; };
+		C4AA1D2F15B8564100F0CC6B /* 月份10.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D2315B8564100F0CC6B /* 月份10.png */; };
+		C4AA1D3015B8564100F0CC6B /* 月份11.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D2415B8564100F0CC6B /* 月份11.png */; };
+		C4AA1D3115B8564100F0CC6B /* 月份12.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D2515B8564100F0CC6B /* 月份12.png */; };
+		C4AA1D3215B8564100F0CC6B /* 月份2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D2615B8564100F0CC6B /* 月份2.png */; };
+		C4AA1D3315B8564100F0CC6B /* 月份3.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D2715B8564100F0CC6B /* 月份3.png */; };
+		C4AA1D3415B8564100F0CC6B /* 月份4.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D2815B8564100F0CC6B /* 月份4.png */; };
+		C4AA1D3515B8564100F0CC6B /* 月份5.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D2915B8564100F0CC6B /* 月份5.png */; };
+		C4AA1D3615B8564100F0CC6B /* 月份6.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D2A15B8564100F0CC6B /* 月份6.png */; };
+		C4AA1D3715B8564100F0CC6B /* 月份7.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D2B15B8564100F0CC6B /* 月份7.png */; };
+		C4AA1D3815B8564100F0CC6B /* 月份8.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D2C15B8564100F0CC6B /* 月份8.png */; };
+		C4AA1D3915B8564100F0CC6B /* 月份9.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D2D15B8564100F0CC6B /* 月份9.png */; };
+		C4AA1D4115B8566400F0CC6B /* scheduleDal.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA1D3C15B8566400F0CC6B /* scheduleDal.m */; };
+		C4AA1D4215B8566400F0CC6B /* CalDal.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA1D3E15B8566400F0CC6B /* CalDal.m */; };
+		C4AA1D4315B8566400F0CC6B /* sqlHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA1D4015B8566400F0CC6B /* sqlHelp.m */; };
+		C4AA1D4A15B8567800F0CC6B /* CalVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA1D4515B8567800F0CC6B /* CalVIewController.m */; };
+		C4AA1D4B15B8567800F0CC6B /* WriteDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA1D4715B8567800F0CC6B /* WriteDataController.m */; };
+		C4AA1D4C15B8567800F0CC6B /* CalView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA1D4915B8567800F0CC6B /* CalView.m */; };
+		C4AA1D4E15B8572600F0CC6B /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AA1D4D15B8572600F0CC6B /* libsqlite3.0.dylib */; };
+		C4AA1D5015B8582500F0CC6B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D4F15B8582500F0CC6B /* Default@2x.png */; };
+		C4AA1D5215B8583000F0CC6B /* 图标.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D5115B8583000F0CC6B /* 图标.png */; };
+		C4AA1D5415B859AD00F0CC6B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AA1D5315B859AD00F0CC6B /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4AA1CCD15B855D000F0CC6B /* mycalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mycalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AA1CD115B855D000F0CC6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4AA1CD315B855D000F0CC6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4AA1CD715B855D000F0CC6B /* mycalendar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mycalendar-Info.plist"; sourceTree = "<group>"; };
+		C4AA1CD915B855D000F0CC6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4AA1CDB15B855D000F0CC6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4AA1CDD15B855D000F0CC6B /* mycalendar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mycalendar-Prefix.pch"; sourceTree = "<group>"; };
+		C4AA1CDE15B855D000F0CC6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4AA1CDF15B855D000F0CC6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4AA1CEA15B8562000F0CC6B /* 返回按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回按钮.png"; sourceTree = "<group>"; };
+		C4AA1CEB15B8562000F0CC6B /* 关于按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于按钮.png"; sourceTree = "<group>"; };
+		C4AA1CEC15B8562000F0CC6B /* 日程按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日程按钮.png"; sourceTree = "<group>"; };
+		C4AA1CED15B8562000F0CC6B /* 搜索按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索按钮.png"; sourceTree = "<group>"; };
+		C4AA1CEE15B8562000F0CC6B /* 上方广告.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上方广告.png"; sourceTree = "<group>"; };
+		C4AA1CEF15B8562000F0CC6B /* 日程1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日程1.png"; sourceTree = "<group>"; };
+		C4AA1CF015B8562000F0CC6B /* 日期按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日期按钮.png"; sourceTree = "<group>"; };
+		C4AA1CF115B8562000F0CC6B /* 中间.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中间.png"; sourceTree = "<group>"; };
+		C4AA1CF215B8562000F0CC6B /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.png"; sourceTree = "<group>"; };
+		C4AA1CF315B8562000F0CC6B /* 日期按钮0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日期按钮0.png"; sourceTree = "<group>"; };
+		C4AA1CF415B8562000F0CC6B /* 红按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红按钮.png"; sourceTree = "<group>"; };
+		C4AA1CF515B8562000F0CC6B /* 绿完成.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "绿完成.png"; sourceTree = "<group>"; };
+		C4AA1CF615B8562000F0CC6B /* 关于.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于.png"; sourceTree = "<group>"; };
+		C4AA1CF715B8562000F0CC6B /* cha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cha.png; sourceTree = "<group>"; };
+		C4AA1D0715B8563C00F0CC6B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		C4AA1D0815B8563C00F0CC6B /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		C4AA1D0915B8563C00F0CC6B /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		C4AA1D0A15B8563C00F0CC6B /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		C4AA1D0B15B8563C00F0CC6B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		C4AA1D0C15B8563C00F0CC6B /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		C4AA1D0D15B8563C00F0CC6B /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		C4AA1D0E15B8563C00F0CC6B /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		C4AA1D0F15B8563C00F0CC6B /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		C4AA1D1015B8563C00F0CC6B /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		C4AA1D1115B8563C00F0CC6B /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		C4AA1D1215B8563C00F0CC6B /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		C4AA1D1315B8563C00F0CC6B /* gg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gg.png; sourceTree = "<group>"; };
+		C4AA1D2215B8564100F0CC6B /* 月份1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月份1.png"; sourceTree = "<group>"; };
+		C4AA1D2315B8564100F0CC6B /* 月份10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月份10.png"; sourceTree = "<group>"; };
+		C4AA1D2415B8564100F0CC6B /* 月份11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月份11.png"; sourceTree = "<group>"; };
+		C4AA1D2515B8564100F0CC6B /* 月份12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月份12.png"; sourceTree = "<group>"; };
+		C4AA1D2615B8564100F0CC6B /* 月份2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月份2.png"; sourceTree = "<group>"; };
+		C4AA1D2715B8564100F0CC6B /* 月份3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月份3.png"; sourceTree = "<group>"; };
+		C4AA1D2815B8564100F0CC6B /* 月份4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月份4.png"; sourceTree = "<group>"; };
+		C4AA1D2915B8564100F0CC6B /* 月份5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月份5.png"; sourceTree = "<group>"; };
+		C4AA1D2A15B8564100F0CC6B /* 月份6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月份6.png"; sourceTree = "<group>"; };
+		C4AA1D2B15B8564100F0CC6B /* 月份7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月份7.png"; sourceTree = "<group>"; };
+		C4AA1D2C15B8564100F0CC6B /* 月份8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月份8.png"; sourceTree = "<group>"; };
+		C4AA1D2D15B8564100F0CC6B /* 月份9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月份9.png"; sourceTree = "<group>"; };
+		C4AA1D3B15B8566400F0CC6B /* scheduleDal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scheduleDal.h; sourceTree = "<group>"; };
+		C4AA1D3C15B8566400F0CC6B /* scheduleDal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scheduleDal.m; sourceTree = "<group>"; };
+		C4AA1D3D15B8566400F0CC6B /* CalDal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalDal.h; sourceTree = "<group>"; };
+		C4AA1D3E15B8566400F0CC6B /* CalDal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalDal.m; sourceTree = "<group>"; };
+		C4AA1D3F15B8566400F0CC6B /* sqlHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlHelp.h; sourceTree = "<group>"; };
+		C4AA1D4015B8566400F0CC6B /* sqlHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sqlHelp.m; sourceTree = "<group>"; };
+		C4AA1D4415B8567800F0CC6B /* CalVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalVIewController.h; sourceTree = "<group>"; };
+		C4AA1D4515B8567800F0CC6B /* CalVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalVIewController.m; sourceTree = "<group>"; };
+		C4AA1D4615B8567800F0CC6B /* WriteDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteDataController.h; sourceTree = "<group>"; };
+		C4AA1D4715B8567800F0CC6B /* WriteDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteDataController.m; sourceTree = "<group>"; };
+		C4AA1D4815B8567800F0CC6B /* CalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalView.h; sourceTree = "<group>"; };
+		C4AA1D4915B8567800F0CC6B /* CalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalView.m; sourceTree = "<group>"; };
+		C4AA1D4D15B8572600F0CC6B /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		C4AA1D4F15B8582500F0CC6B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C4AA1D5115B8583000F0CC6B /* 图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标.png"; sourceTree = "<group>"; };
+		C4AA1D5315B859AD00F0CC6B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4AA1CCA15B855D000F0CC6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AA1D4E15B8572600F0CC6B /* libsqlite3.0.dylib in Frameworks */,
+				C4AA1CD215B855D000F0CC6B /* UIKit.framework in Frameworks */,
+				C4AA1CD415B855D000F0CC6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4AA1CC215B855D000F0CC6B = {
+			isa = PBXGroup;
+			children = (
+				C4AA1D5315B859AD00F0CC6B /* Icon.png */,
+				C4AA1D5115B8583000F0CC6B /* 图标.png */,
+				C4AA1D4F15B8582500F0CC6B /* Default@2x.png */,
+				C4AA1CD515B855D000F0CC6B /* mycalendar */,
+				C4AA1CD015B855D000F0CC6B /* Frameworks */,
+				C4AA1CCE15B855D000F0CC6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4AA1CCE15B855D000F0CC6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA1CCD15B855D000F0CC6B /* mycalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4AA1CD015B855D000F0CC6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA1D4D15B8572600F0CC6B /* libsqlite3.0.dylib */,
+				C4AA1CD115B855D000F0CC6B /* UIKit.framework */,
+				C4AA1CD315B855D000F0CC6B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4AA1CD515B855D000F0CC6B /* mycalendar */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA1CDE15B855D000F0CC6B /* AppDelegate.h */,
+				C4AA1CDF15B855D000F0CC6B /* AppDelegate.m */,
+				C4AA1D4415B8567800F0CC6B /* CalVIewController.h */,
+				C4AA1D4515B8567800F0CC6B /* CalVIewController.m */,
+				C4AA1D4615B8567800F0CC6B /* WriteDataController.h */,
+				C4AA1D4715B8567800F0CC6B /* WriteDataController.m */,
+				C4AA1D4815B8567800F0CC6B /* CalView.h */,
+				C4AA1D4915B8567800F0CC6B /* CalView.m */,
+				C4AA1D3A15B8565600F0CC6B /* Dal */,
+				C4AA1CE915B8560C00F0CC6B /* image */,
+				C4AA1CD615B855D000F0CC6B /* Supporting Files */,
+			);
+			path = mycalendar;
+			sourceTree = "<group>";
+		};
+		C4AA1CD615B855D000F0CC6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA1CD715B855D000F0CC6B /* mycalendar-Info.plist */,
+				C4AA1CD815B855D000F0CC6B /* InfoPlist.strings */,
+				C4AA1CDB15B855D000F0CC6B /* main.m */,
+				C4AA1CDD15B855D000F0CC6B /* mycalendar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4AA1CE915B8560C00F0CC6B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA1D2115B8564100F0CC6B /* 月份 */,
+				C4AA1D0615B8563C00F0CC6B /* 日期背景集 */,
+				C4AA1CEA15B8562000F0CC6B /* 返回按钮.png */,
+				C4AA1CEB15B8562000F0CC6B /* 关于按钮.png */,
+				C4AA1CEC15B8562000F0CC6B /* 日程按钮.png */,
+				C4AA1CED15B8562000F0CC6B /* 搜索按钮.png */,
+				C4AA1CEE15B8562000F0CC6B /* 上方广告.png */,
+				C4AA1CEF15B8562000F0CC6B /* 日程1.png */,
+				C4AA1CF015B8562000F0CC6B /* 日期按钮.png */,
+				C4AA1CF115B8562000F0CC6B /* 中间.png */,
+				C4AA1CF215B8562000F0CC6B /* 背景.png */,
+				C4AA1CF315B8562000F0CC6B /* 日期按钮0.png */,
+				C4AA1CF415B8562000F0CC6B /* 红按钮.png */,
+				C4AA1CF515B8562000F0CC6B /* 绿完成.png */,
+				C4AA1CF615B8562000F0CC6B /* 关于.png */,
+				C4AA1CF715B8562000F0CC6B /* cha.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		C4AA1D0615B8563C00F0CC6B /* 日期背景集 */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA1D0715B8563C00F0CC6B /* 1.png */,
+				C4AA1D0815B8563C00F0CC6B /* 10.png */,
+				C4AA1D0915B8563C00F0CC6B /* 11.png */,
+				C4AA1D0A15B8563C00F0CC6B /* 12.png */,
+				C4AA1D0B15B8563C00F0CC6B /* 2.png */,
+				C4AA1D0C15B8563C00F0CC6B /* 3.png */,
+				C4AA1D0D15B8563C00F0CC6B /* 4.png */,
+				C4AA1D0E15B8563C00F0CC6B /* 5.png */,
+				C4AA1D0F15B8563C00F0CC6B /* 6.png */,
+				C4AA1D1015B8563C00F0CC6B /* 7.png */,
+				C4AA1D1115B8563C00F0CC6B /* 8.png */,
+				C4AA1D1215B8563C00F0CC6B /* 9.png */,
+				C4AA1D1315B8563C00F0CC6B /* gg.png */,
+			);
+			path = "日期背景集";
+			sourceTree = "<group>";
+		};
+		C4AA1D2115B8564100F0CC6B /* 月份 */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA1D2215B8564100F0CC6B /* 月份1.png */,
+				C4AA1D2315B8564100F0CC6B /* 月份10.png */,
+				C4AA1D2415B8564100F0CC6B /* 月份11.png */,
+				C4AA1D2515B8564100F0CC6B /* 月份12.png */,
+				C4AA1D2615B8564100F0CC6B /* 月份2.png */,
+				C4AA1D2715B8564100F0CC6B /* 月份3.png */,
+				C4AA1D2815B8564100F0CC6B /* 月份4.png */,
+				C4AA1D2915B8564100F0CC6B /* 月份5.png */,
+				C4AA1D2A15B8564100F0CC6B /* 月份6.png */,
+				C4AA1D2B15B8564100F0CC6B /* 月份7.png */,
+				C4AA1D2C15B8564100F0CC6B /* 月份8.png */,
+				C4AA1D2D15B8564100F0CC6B /* 月份9.png */,
+			);
+			path = "月份";
+			sourceTree = "<group>";
+		};
+		C4AA1D3A15B8565600F0CC6B /* Dal */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA1D3B15B8566400F0CC6B /* scheduleDal.h */,
+				C4AA1D3C15B8566400F0CC6B /* scheduleDal.m */,
+				C4AA1D3D15B8566400F0CC6B /* CalDal.h */,
+				C4AA1D3E15B8566400F0CC6B /* CalDal.m */,
+				C4AA1D3F15B8566400F0CC6B /* sqlHelp.h */,
+				C4AA1D4015B8566400F0CC6B /* sqlHelp.m */,
+			);
+			path = Dal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4AA1CCC15B855D000F0CC6B /* mycalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AA1CE315B855D000F0CC6B /* Build configuration list for PBXNativeTarget "mycalendar" */;
+			buildPhases = (
+				C4AA1CC915B855D000F0CC6B /* Sources */,
+				C4AA1CCA15B855D000F0CC6B /* Frameworks */,
+				C4AA1CCB15B855D000F0CC6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mycalendar;
+			productName = mycalendar;
+			productReference = C4AA1CCD15B855D000F0CC6B /* mycalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4AA1CC415B855D000F0CC6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C4AA1CC715B855D000F0CC6B /* Build configuration list for PBXProject "mycalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4AA1CC215B855D000F0CC6B;
+			productRefGroup = C4AA1CCE15B855D000F0CC6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4AA1CCC15B855D000F0CC6B /* mycalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4AA1CCB15B855D000F0CC6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AA1CDA15B855D000F0CC6B /* InfoPlist.strings in Resources */,
+				C4AA1CF815B8562000F0CC6B /* 返回按钮.png in Resources */,
+				C4AA1CF915B8562000F0CC6B /* 关于按钮.png in Resources */,
+				C4AA1CFA15B8562000F0CC6B /* 日程按钮.png in Resources */,
+				C4AA1CFB15B8562000F0CC6B /* 搜索按钮.png in Resources */,
+				C4AA1CFC15B8562000F0CC6B /* 上方广告.png in Resources */,
+				C4AA1CFD15B8562000F0CC6B /* 日程1.png in Resources */,
+				C4AA1CFE15B8562000F0CC6B /* 日期按钮.png in Resources */,
+				C4AA1CFF15B8562000F0CC6B /* 中间.png in Resources */,
+				C4AA1D0015B8562000F0CC6B /* 背景.png in Resources */,
+				C4AA1D0115B8562000F0CC6B /* 日期按钮0.png in Resources */,
+				C4AA1D0215B8562000F0CC6B /* 红按钮.png in Resources */,
+				C4AA1D0315B8562000F0CC6B /* 绿完成.png in Resources */,
+				C4AA1D0415B8562000F0CC6B /* 关于.png in Resources */,
+				C4AA1D0515B8562000F0CC6B /* cha.png in Resources */,
+				C4AA1D1415B8563C00F0CC6B /* 1.png in Resources */,
+				C4AA1D1515B8563C00F0CC6B /* 10.png in Resources */,
+				C4AA1D1615B8563C00F0CC6B /* 11.png in Resources */,
+				C4AA1D1715B8563C00F0CC6B /* 12.png in Resources */,
+				C4AA1D1815B8563C00F0CC6B /* 2.png in Resources */,
+				C4AA1D1915B8563C00F0CC6B /* 3.png in Resources */,
+				C4AA1D1A15B8563C00F0CC6B /* 4.png in Resources */,
+				C4AA1D1B15B8563C00F0CC6B /* 5.png in Resources */,
+				C4AA1D1C15B8563C00F0CC6B /* 6.png in Resources */,
+				C4AA1D1D15B8563C00F0CC6B /* 7.png in Resources */,
+				C4AA1D1E15B8563C00F0CC6B /* 8.png in Resources */,
+				C4AA1D1F15B8563C00F0CC6B /* 9.png in Resources */,
+				C4AA1D2015B8563C00F0CC6B /* gg.png in Resources */,
+				C4AA1D2E15B8564100F0CC6B /* 月份1.png in Resources */,
+				C4AA1D2F15B8564100F0CC6B /* 月份10.png in Resources */,
+				C4AA1D3015B8564100F0CC6B /* 月份11.png in Resources */,
+				C4AA1D3115B8564100F0CC6B /* 月份12.png in Resources */,
+				C4AA1D3215B8564100F0CC6B /* 月份2.png in Resources */,
+				C4AA1D3315B8564100F0CC6B /* 月份3.png in Resources */,
+				C4AA1D3415B8564100F0CC6B /* 月份4.png in Resources */,
+				C4AA1D3515B8564100F0CC6B /* 月份5.png in Resources */,
+				C4AA1D3615B8564100F0CC6B /* 月份6.png in Resources */,
+				C4AA1D3715B8564100F0CC6B /* 月份7.png in Resources */,
+				C4AA1D3815B8564100F0CC6B /* 月份8.png in Resources */,
+				C4AA1D3915B8564100F0CC6B /* 月份9.png in Resources */,
+				C4AA1D5015B8582500F0CC6B /* Default@2x.png in Resources */,
+				C4AA1D5215B8583000F0CC6B /* 图标.png in Resources */,
+				C4AA1D5415B859AD00F0CC6B /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4AA1CC915B855D000F0CC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AA1CDC15B855D000F0CC6B /* main.m in Sources */,
+				C4AA1CE015B855D000F0CC6B /* AppDelegate.m in Sources */,
+				C4AA1D4115B8566400F0CC6B /* scheduleDal.m in Sources */,
+				C4AA1D4215B8566400F0CC6B /* CalDal.m in Sources */,
+				C4AA1D4315B8566400F0CC6B /* sqlHelp.m in Sources */,
+				C4AA1D4A15B8567800F0CC6B /* CalVIewController.m in Sources */,
+				C4AA1D4B15B8567800F0CC6B /* WriteDataController.m in Sources */,
+				C4AA1D4C15B8567800F0CC6B /* CalView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4AA1CD815B855D000F0CC6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4AA1CD915B855D000F0CC6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4AA1CE115B855D000F0CC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Li Zhang";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Li Zhang";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "2A43D972-0962-407B-9730-88660679F19F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2A43D972-0962-407B-9730-88660679F19F";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4AA1CE215B855D000F0CC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Li Zhang";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Li Zhang";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "2A43D972-0962-407B-9730-88660679F19F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2A43D972-0962-407B-9730-88660679F19F";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4AA1CE415B855D000F0CC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Zhang (KCGC4QF2U9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Zhang (KCGC4QF2U9)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mycalendar/mycalendar-Prefix.pch";
+				INFOPLIST_FILE = "mycalendar/mycalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4AA1CE515B855D000F0CC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Zhang (KCGC4QF2U9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Zhang (KCGC4QF2U9)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mycalendar/mycalendar-Prefix.pch";
+				INFOPLIST_FILE = "mycalendar/mycalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4AA1CC715B855D000F0CC6B /* Build configuration list for PBXProject "mycalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AA1CE115B855D000F0CC6B /* Debug */,
+				C4AA1CE215B855D000F0CC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AA1CE315B855D000F0CC6B /* Build configuration list for PBXNativeTarget "mycalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AA1CE415B855D000F0CC6B /* Debug */,
+				C4AA1CE515B855D000F0CC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4AA1CC415B855D000F0CC6B /* Project object */;
+}
